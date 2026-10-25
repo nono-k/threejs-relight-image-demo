@@ -1,0 +1,28 @@
+{
+  "name": "threejs-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vite build && gh-pages -d src/dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "@tweakpane/core": "^2.0.5",
+    "@types/three": "^0.183.1",
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0"
+  },
+  "dependencies": {
+    "three": "^0.183.2",
+    "tweakpane": "^4.0.5",
+    "vite-plugin-glsl": "^1.5.5"
+  }
+}
